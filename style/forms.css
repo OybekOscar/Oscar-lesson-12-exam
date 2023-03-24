@@ -1,0 +1,41 @@
+
+.forms input ,select,textarea{
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.forms button{
+    margin: 60px;
+    width: 163px;
+    height: 58px;
+    padding: 10px 15px;
+    background: #FFA62B;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+font-weight: 700;
+font-size: 14px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+cursor: pointer;
+}
+.forms button:hover{
+    transition: .7s;
+    transform: scale(1.2);
+    background: #16697A;
+    color: #FFFFFF;
+}
+
+@media (max-width: 500px){
+    
+    .forms{
+        display: none;
+    }
+}

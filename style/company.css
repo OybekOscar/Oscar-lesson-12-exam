@@ -1,0 +1,139 @@
+.company{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo-company{
+    margin: 30px 20px;
+}
+.logo-company:hover{
+    transform: scale(1.2);
+    transition: .7s;
+    fill: #FFA62B;
+} 
+input:focus,textarea:focus{
+    outline: none;
+    
+}
+.email-company{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    height: 124px;
+    background-color: #16697A;
+}
+.email-company h2{
+    margin-left: 20px;
+    margin-right: 130px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1px;
+color: #FFFFFF;
+}
+.email-company input{
+    padding: 15px 0 15px 20px;
+    width: 40%;
+    height: 58px;
+    border-right: 0px;
+    border: solid 1px #FFA62B;
+   
+}
+.email-company button{
+    width: 15%;
+    height: 58px;
+    padding: 15px 10px;
+    border-left: 0px;
+    cursor: pointer;
+    background-color: #FFA62B;
+    border: solid 1px #FFA62B;
+    color: #ffff;
+}
+
+.contact-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item-cards{
+    width: 328px;
+    height: 333px;
+}
+.contact{
+    margin: 0 auto;
+    margin-top: 165px;
+}
+.item-cards-contact svg{
+    margin-top: 50px;
+}
+.item-cards-contact h6{
+    margin-top: 8px;
+    font-family: 'Montserrat';
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+color: var(--textcolor);
+
+}
+.item-cards-contact h5{
+    margin: 15px 0px; 
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.1px;
+color: var(--textcolor);
+}
+.item-cards-contact button{
+    cursor: pointer;
+    padding: 10px 15px;
+    border: solid 2px #FFA62B;
+    background: transparent;
+    border-radius: 10px;
+    color: #FFA62B;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
+}
+.item-cards-contact:hover{
+    transition: .7s;
+    background: var(--textcolor);
+}
+.item-cards-contact:hover>h6{
+    color: #FFFFFF;
+}
+.item-cards-contact:hover>h5{
+    color: #FFFFFF;
+}
+.item-cards-contact:hover>svg{
+    fill: #FFFFFF;
+}
+.item-cards-contact:hover>button{
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+}
+
+
+
+
+@media (max-width: 500px){
+    .company{
+        flex-direction: column;
+    }
+    .email-company{
+        display: none;
+    }
+}
+
